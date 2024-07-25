@@ -1,6 +1,17 @@
-*::before::after {
-    margin: 0;
+html,
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 a {
@@ -20,6 +31,11 @@ label {
 }
 
 button {
+    cursor: pointer;
+    padding: 0;
+}
+
+input[type="button"] {
     cursor: pointer;
     padding: 0;
 }
