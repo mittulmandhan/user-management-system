@@ -4,7 +4,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #838383;
+    background: #dfd3d3;
+    position: fixed;
+    top: 0;
 }
 
 nav input[type="button"] {

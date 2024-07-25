@@ -1,0 +1,10 @@
+#welcomeMsg {
+    font-size: 104px;
+    font-weight: 900;
+    position: absolute;
+    top: 77%;
+    left: 5%;
+    color: #fff;
+    text-wrap: nowrap;
+    text-shadow: #FC0 1px 0 5px;
+}
