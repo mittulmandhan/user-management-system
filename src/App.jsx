@@ -1,11 +1,11 @@
 import "./App.css";
-import SrcExample from "./components/SrcExample";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <h1>App component</h1>
-      <SrcExample />
+      {/* <h1>App component</h1> */}
+      <Home />
     </>
   );
 }

@@ -1,0 +1,38 @@
+*::before::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+iframe {
+    border: none;
+}
+
+label {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+}
+
+:disabled {
+    cursor: not-allowed;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
